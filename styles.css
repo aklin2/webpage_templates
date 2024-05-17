@@ -27,8 +27,16 @@ nav, .ads {
     color: white;
 }
 
+button {
+    margin: 1vh;
+}
+
 .content {
     display: flex;
     flex-direction: column;
     flex: 1;
+}
+
+.addBorders {
+    border: 1px solid red
 }
