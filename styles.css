@@ -1,0 +1,39 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    height: 100vh; /* set height to be 100% of view port */
+}
+
+header, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    color: white;
+    padding: 2vh;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+nav, .ads {
+    display: flex;
+    flex-direction: column;
+    background-color: maroon;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+* {
+    border: 1px solid red;
+}
