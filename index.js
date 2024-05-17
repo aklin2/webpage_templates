@@ -36,7 +36,7 @@ navBar.appendChild(bordersButton);
 
 // External links
 // Add a line that says these are external links
-const externalLinksDescription = document.createElement("p");
+const externalLinksDescription = document.createElement("h1");
 externalLinksDescription.innerHTML = "External links";
 navBar.appendChild(externalLinksDescription);
 const button = document.createElement("button");
